@@ -1,5 +1,7 @@
 # 3mf-thumb
 
+**English** | [Deutsch](README.de.md)
+
 Windows Explorer thumbnails **and** preview pane for `.3mf` files, including Bambu Studio / OrcaSlicer / PrusaSlicer projects.
 
 Many people install [stl-thumb](https://github.com/unlimitedbacon/stl-thumb) because it says it supports 3MF. But the latest release (0.5.0, 2022) does not: the Windows installer only registers `.stl`, and the 0.5.0 binary cannot read 3MF files. 3MF support exists only in unreleased source code. This project fills that gap for Windows. It works next to stl-thumb, which keeps handling `.stl`.
