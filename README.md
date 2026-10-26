@@ -61,6 +61,10 @@ powershell -ExecutionPolicy Bypass -File .\uninstall.ps1   # elevated
 
 The preview handler runs its window on a dedicated STA thread with its own message loop. `prevhost.exe` can call handlers on a thread that never pumps messages, and a window created there stays blank.
 
+## Acknowledgements
+
+This project was inspired by [stl-thumb](https://github.com/unlimitedbacon/stl-thumb) by [unlimitedbacon](https://github.com/unlimitedbacon), which provides thumbnails for STL files on Windows and Linux. 3mf-thumb shares no code with stl-thumb. It is an independent C# implementation that adds what the current stl-thumb release lacks on Windows: `.3mf` thumbnails and a preview pane handler. Use both together: stl-thumb for `.stl`, 3mf-thumb for `.3mf`.
+
 ## License
 
 MIT
